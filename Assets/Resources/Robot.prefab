@@ -5590,8 +5590,9 @@ GameObject:
   - component: {fileID: 7107688790391746356}
   - component: {fileID: 3117784640074994379}
   - component: {fileID: 7240387939324944326}
+  - component: {fileID: 6186559465503374199}
   m_Layer: 0
-  m_Name: Robot 2
+  m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5605,7 +5606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7107688789870766894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.56, y: 14.02, z: 0.92}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5668,11 +5669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 191589b7057550647a2e62d16b6aabc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _waypoints: []
+  _waypointOBJ: []
+  _currentWaypoint: 0
 --- !u!65 &7240387939324944326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5686,6 +5685,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4845047, y: 1.8083887, z: 0.47279}
   m_Center: {x: 0, y: 0.9121318, z: -0.017573655}
+--- !u!54 &6186559465503374199
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107688789870766894}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7107688789870766898
 GameObject:
   m_ObjectHideFlags: 0

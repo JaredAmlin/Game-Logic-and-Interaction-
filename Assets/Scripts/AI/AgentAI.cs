@@ -8,6 +8,8 @@ public class AgentAI : MonoBehaviour
     //store waypoints in List
     [SerializeField] private List<Transform> _waypoints;
 
+    [SerializeField] private GameObject[] _waypointOBJ;
+
     //store waypoint to move towards
     [SerializeField] private int _currentWaypoint;
 
@@ -20,23 +22,20 @@ public class AgentAI : MonoBehaviour
     //handle to Animator
     private Animator _animator;
 
-    private void OnEnable()
-    {
-        Initialization();
-    }
-
     // Start is called before the first frame update
     void Start()
     {
-        //set current waypoint to 1
-        _currentWaypoint++;
+        Initialization();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //move agent to current waypoint
-        _agent.destination = _waypoints[_currentWaypoint].position;
+        if (_waypoints[_currentWaypoint] != null)
+        {
+            //move agent to current waypoint
+            _agent.destination = _waypoints[_currentWaypoint].position;
+        }
     }
 
     private void Initialization()
@@ -46,6 +45,9 @@ public class AgentAI : MonoBehaviour
 
         //get Nav Mesh Agent
         _agent = GetComponent<NavMeshAgent>();
+
+        //find waypoints by tag
+        _waypointOBJ = GameObject.FindGameObjectsWithTag(_WaypointTag);
 
         NullChecks();
     }
@@ -59,6 +61,15 @@ public class AgentAI : MonoBehaviour
         if (_agent == null)
             Debug.LogError("The Nav Mesh Agent is NULL.");
 
+        if (_waypointOBJ != null)
+        {
+            foreach (GameObject waypoint in _waypointOBJ)
+            {
+                //add waypoint transforms to list
+                _waypoints.Add(waypoint.transform);
+            }
+        }
+        else Debug.LogError("No Waypoints were found");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -71,7 +82,14 @@ public class AgentAI : MonoBehaviour
             {
                 _currentWaypoint++;
             }
-            else Debug.Log("Game Over!");
+            else
+            {
+                Debug.Log("Game Over!");
+                _currentWaypoint = 0;
+                this.gameObject.SetActive(false);
+                Vector3 spawnPosition = SpawnManager.Instance.GetSpawnPosition();
+                this.gameObject.transform.position = spawnPosition;
+            }
         }
     }
 }
