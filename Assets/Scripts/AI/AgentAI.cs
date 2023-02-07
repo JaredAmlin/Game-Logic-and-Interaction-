@@ -31,11 +31,7 @@ public class AgentAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_waypoints[_currentWaypoint] != null)
-        {
-            //move agent to current waypoint
-            _agent.destination = _waypoints[_currentWaypoint].position;
-        }
+        Movement();
     }
 
     private void Initialization()
@@ -70,6 +66,15 @@ public class AgentAI : MonoBehaviour
             }
         }
         else Debug.LogError("No Waypoints were found");
+    }
+
+    private void Movement()
+    {
+        if (_waypoints[_currentWaypoint] != null)
+        {
+            //move agent to current waypoint
+            _agent.destination = _waypoints[_currentWaypoint].position;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
