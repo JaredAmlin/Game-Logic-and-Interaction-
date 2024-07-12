@@ -7,6 +7,8 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
     [RequireComponent(typeof(CharacterController))]
     public class FPS_Controller : MonoBehaviour
     {
+        #region Variables
+
         [Header("Controller Info")]
         [SerializeField ][Tooltip("How fast can the controller walk?")]
         private float _walkSpeed = 3.0f; //how fast the character is walking
@@ -23,7 +25,6 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
 
         private CharacterController _controller; //reference variable to the character controller component
         private float _yVelocity = 0.0f; //cache our y velocity
-        
 
         [Header("Headbob Settings")]       
         [SerializeField][Tooltip("Smooth out the transition from moving to not moving")]
@@ -40,26 +41,291 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
         [Header("Camera Settings")]
         [SerializeField][Tooltip("Control the look sensitivty of the camera")]
         private float _lookSensitivity = 5.0f; //mouse sensitivity 
+        [SerializeField] private float _lookSensitivityFar = 5.0f; //mouse sensitivity
+        [SerializeField] private float _lookSensitivityMid = 5.0f; //mouse sensitivity
+        [SerializeField] private float _lookSensitivityClose = 5.0f; //mouse sensitivity
+        [SerializeField] private float _lookSensitivityVeryClose = 5.0f; //mouse sensitivity
 
-        private Camera _fpsCamera;
+        [SerializeField] private Camera _fpsCamera;
+
+        //Jared Stuff
+        private Vector3 _centerPoint = new Vector3(0.5f, 0.5f, 0);
+        [SerializeField] private LayerMask _hitMask;
+        [SerializeField] private AudioClip _rifeShotClip;
+        [SerializeField] private AudioClip _outOfAmmoClip;
+        [SerializeField] private AudioClip _reloadClip;
+        [SerializeField] private ParticleSystem _muzzleFlash;
+        [SerializeField] private int _shotsFired;
+        private bool _isWaveActive = false;
+        [SerializeField] private int _ammo;
+        [SerializeField] private int _maxAmmo = 7;
+        [SerializeField] private int _ammoReserve;
+        [SerializeField] private int _ammoRestock = 50;
+        [SerializeField] private int _ammoIncreaseAmount = 10;
+        [SerializeField] private bool _canFire = true;
+        private const string _isWaveActiveName = "IsWaveActive";
+        private const string _reloadCoolDownName = "ReloadCoolDown";
+        private bool _isGameStarted = false;
+
+        #endregion
+
+        #region Start, OnDisable
+
         private void Start()
         {
             _controller = GetComponent<CharacterController>(); //assign the reference variable to the component
             _fpsCamera = GetComponentInChildren<Camera>();
             _initialCameraPos = _fpsCamera.transform.localPosition;
-            Cursor.lockState = CursorLockMode.Locked;
+            _lookSensitivity = _lookSensitivityFar;
+
+            GameManager.onWaveStart += GameManager_onWaveStart;
+            GameManager.onWaveComplete += GameManager_onWaveComplete;
+            GameManager.onGameStart += GameManager_onGameStart;
         }
+
+        private void OnDisable()
+        {
+            GameManager.onWaveStart -= GameManager_onWaveStart;
+            GameManager.onWaveComplete -= GameManager_onWaveComplete; 
+            GameManager.onGameStart -= GameManager_onGameStart;
+        }
+
+        #endregion
+
+        #region Update
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            InputCheck();
+
+            if (_isGameStarted)
             {
-                Cursor.lockState = CursorLockMode.None;
+                FPSController();
+                CameraController();
+                HeadBobbing();
+            }
+        }
+
+        #endregion
+
+        #region Event Methods
+
+        private void GameManager_onWaveComplete()
+        {
+            _isWaveActive = false;
+        }
+
+        private void GameManager_onWaveStart()
+        {
+            _ammo = _maxAmmo;
+
+            _ammoReserve += _ammoRestock;
+
+            _ammoRestock += _ammoIncreaseAmount;
+
+            UIManager.Instance.UpdateAmmoUI(_ammo, _maxAmmo);
+
+            UIManager.Instance.UpdateAmmoReserveUI(_ammoReserve);
+
+            _isWaveActive = true;
+        }
+
+        private void GameManager_onGameStart()
+        {
+            _isGameStarted = true;
+        }
+
+        #endregion
+
+        #region Input
+
+        private void InputCheck()
+        {
+            //shooting
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (_isWaveActive)
+                {
+                    if (_ammo > 0 && _canFire)
+                    {
+                        Fire();
+                    }
+                    else
+                        AudioManager.Instance.PlayRifleSound(_outOfAmmoClip);
+                }
             }
 
-            FPSController();
-            CameraController();
-            HeadBobbing(); 
+            //reload
+            if (Input.GetMouseButtonDown(1))
+            {
+                if (_isWaveActive)
+                {
+                    int difference = _maxAmmo - _ammo;
+                    _ammo += Reload(difference);
+                    UIManager.Instance.UpdateAmmoUI(_ammo, _maxAmmo);
+                }
+            }
+
+            //zoom in
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                //zoom in
+                CameraManager.Instance.ZoomIn();
+
+                if (_lookSensitivity == _lookSensitivityFar)
+                {
+                    _lookSensitivity = _lookSensitivityMid;
+                }
+                else if (_lookSensitivity == _lookSensitivityMid)
+                {
+                    _lookSensitivity = _lookSensitivityClose;
+                }
+                else if (_lookSensitivity == _lookSensitivityClose)
+                {
+                    _lookSensitivity = _lookSensitivityVeryClose;
+                }
+            }
+
+            //zoom out
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                //zoom out
+                CameraManager.Instance.ZoomOut();
+
+                if (_lookSensitivity == _lookSensitivityVeryClose)
+                {
+                    _lookSensitivity = _lookSensitivityClose;
+                }
+                else if (_lookSensitivity == _lookSensitivityClose)
+                {
+                    _lookSensitivity = _lookSensitivityMid;
+                }
+                else if (_lookSensitivity == _lookSensitivityMid)
+                {
+                    _lookSensitivity = _lookSensitivityFar;
+                }
+            }
+
+            //quit game
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+
+            //skip cinematic
+            if (Input.GetKeyDown(KeyCode.RightShift))
+            {
+                GameManager.Instance.SkipTutorial();
+            }
+        }
+
+        #endregion
+
+        #region Shooting, Reload
+
+        private void Fire()
+        {
+            _shotsFired++;
+
+            _ammo--;
+
+            if (_ammo <= 0)
+            {
+                _ammo = 0;
+
+                _ammo = Reload(_maxAmmo);
+            }
+
+            GameManager.Instance.AddShotsFired();
+
+            UIManager.Instance.UpdateAmmoUI(_ammo, _maxAmmo);
+
+            _muzzleFlash.Play();
+
+            CameraManager.Instance.ShakeCamera(0.2f, 40f);
+
+            //raycast forward from screen center
+            Ray rayOrigin = Camera.main.ViewportPointToRay(_centerPoint);
+
+            //store hit info
+            RaycastHit hitInfo;
+
+            if (Physics.Raycast(rayOrigin, out hitInfo, Mathf.Infinity, _hitMask))
+            {
+                PoolManager.Instance.RequestBulletSparks(hitInfo.point);
+
+                IHittable hit = hitInfo.collider.GetComponent<IHittable>();
+
+                if (hit != null)
+                {
+                    hit.HitDamage(10, hitInfo.point);
+                }
+            }
+
+            AudioManager.Instance.PlayRifleSound(_rifeShotClip);
+        }
+
+        private int Reload(int ammo)
+        {
+            _canFire = false;
+            AudioManager.Instance.PlayRifleSound(_reloadClip);
+            Invoke(_reloadCoolDownName, 1.5f);
+            UIManager.Instance.ReloadCooldownUI(1.5f);
+
+            //compare reserve ammmo to incoming request
+            int difference = _ammoReserve - ammo;
+
+            int remainingAmmo = _ammoReserve;
+
+            _ammoReserve -= ammo;
+
+            if (_ammoReserve < 0)
+                _ammoReserve = 0;
+
+            UIManager.Instance.UpdateAmmoReserveUI(_ammoReserve);
+
+            if (_ammo == 0 && remainingAmmo == 0)
+            {
+                Invoke(_isWaveActiveName, 1f);
+            }
+
+            if (difference > 0)
+            {
+                //full reload
+                return ammo;
+            }
+            else
+            {
+                //empty reserve. partial reload
+                return remainingAmmo;
+            }
+        }
+
+        #endregion
+
+        #region Invoked Methods
+
+        private void IsWaveActive()
+        {
+            if (_isWaveActive)
+            {
+                GameManager.Instance.GameOver();
+                UIManager.Instance.SetOutOfAmmoTextActive();
+            }
+        }
+
+        private void ReloadCoolDown()
+        {
+            _canFire = true;
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public Transform GetFollowTarget()
+        {
+            return _fpsCamera.transform;
         }
 
         void FPSController()
@@ -174,6 +440,8 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
                 _fpsCamera.transform.localPosition = resetHead; //assign the head position back to the initial cam pos
             }
         }
+
+        #endregion
     }
 }
 

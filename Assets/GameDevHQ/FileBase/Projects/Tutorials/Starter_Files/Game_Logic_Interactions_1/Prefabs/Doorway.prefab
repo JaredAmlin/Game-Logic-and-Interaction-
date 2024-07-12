@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8501970521780314094
 Transform:
@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28, y: 0.25, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3496946061645360898}
   - {fileID: 8501970521935618235}
@@ -110,6 +111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Wall_04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -166,11 +171,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &263988191901197368 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 263988191901335224}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &427174042800178352
@@ -183,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -240,11 +254,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &427174042799791664 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 427174042800178352}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &617503957101507044
@@ -257,6 +276,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -314,11 +337,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &617503957101112164 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 617503957101507044}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &802707918474343748
@@ -331,6 +359,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -388,11 +420,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &802707918473949124 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 802707918474343748}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &819103897731777807
@@ -405,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -462,11 +503,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &819103897732177807 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 819103897731777807}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &935563436546168904
@@ -479,6 +525,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -536,11 +586,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &935563436546032328 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 935563436546168904}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &967563724725812091
@@ -553,6 +608,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -610,11 +669,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &967563724725674491 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 967563724725812091}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1148843070407559780
@@ -627,6 +691,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -684,11 +752,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &1148843070407168228 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 1148843070407559780}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1172408062562192872
@@ -701,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -758,11 +835,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1172408062562326376 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1172408062562192872}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1470226044085299317
@@ -775,6 +857,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -832,11 +918,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1470226044085433077 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1470226044085299317}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1499340159597939440
@@ -849,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -906,11 +1001,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1499340159598334064 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1499340159597939440}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1584279250954527742
@@ -923,6 +1023,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -980,11 +1084,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1584279250954664318 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1584279250954527742}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1672890584641822215
@@ -997,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1054,11 +1167,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1672890584641946759 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1672890584641822215}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1676782700220996536
@@ -1071,6 +1189,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1128,11 +1250,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1676782700221382968 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1676782700220996536}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1985742490041034894
@@ -1145,6 +1272,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1202,11 +1333,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &1985742490041168398 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 1985742490041034894}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2003045237326433043
@@ -1219,6 +1355,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -1276,11 +1416,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &2003045237326827923 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 2003045237326433043}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2472280001707076937
@@ -1293,6 +1438,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1350,11 +1499,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2472280001706948553 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2472280001707076937}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2566781289519853776
@@ -1367,6 +1521,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1424,11 +1582,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2566781289519983184 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2566781289519853776}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2568661499316852520
@@ -1441,6 +1604,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1498,11 +1665,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2568661499317243304 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2568661499316852520}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2727781891703275522
@@ -1515,6 +1687,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1572,11 +1748,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2727781891702889090 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2727781891703275522}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2733547479180585018
@@ -1589,6 +1770,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1646,11 +1831,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2733547479180980922 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2733547479180585018}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2952275321819020777
@@ -1663,6 +1853,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -1720,11 +1914,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &2952275321818883945 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 2952275321819020777}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2975619271600764530
@@ -1737,6 +1936,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1794,11 +1997,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &2975619271601155314 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 2975619271600764530}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3393880197870566054
@@ -1811,6 +2019,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -1868,11 +2080,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &3393880197870166054 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 3393880197870566054}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3414466089855048407
@@ -1885,6 +2102,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -1942,11 +2163,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &3414466089854910551 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 3414466089855048407}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3577009139074598643
@@ -1959,6 +2185,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -2016,11 +2246,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &3577009139074210931 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 3577009139074598643}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3632680419757055549
@@ -2033,6 +2268,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -2090,11 +2329,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &3632680419757180093 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 3632680419757055549}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3908458948249883617
@@ -2107,6 +2351,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2164,11 +2412,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &3908458948250274145 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 3908458948249883617}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4065409682306045371
@@ -2181,6 +2434,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2238,11 +2495,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &4065409682306436923 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 4065409682306045371}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4066776023700219437
@@ -2255,6 +2517,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2312,11 +2578,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &4066776023700356269 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 4066776023700219437}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4118692573049140866
@@ -2329,6 +2600,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2386,11 +2661,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &4118692573049269250 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 4118692573049140866}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4299035673876305889
@@ -2403,6 +2683,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2460,11 +2744,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &4299035673876696417 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 4299035673876305889}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5103880800422424561
@@ -2477,6 +2766,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2534,11 +2827,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &5103880800422294897 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 5103880800422424561}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5233981768405674466
@@ -2551,6 +2849,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -2608,11 +2910,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &5233981768406070114 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 5233981768405674466}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5512413785257854221
@@ -2625,6 +2932,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2682,11 +2993,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &5512413785257992077 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 5512413785257854221}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5655501253425807092
@@ -2699,6 +3015,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -2756,11 +3076,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &5655501253426193524 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 5655501253425807092}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5891603925117624790
@@ -2773,6 +3098,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2830,11 +3159,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &5891603925117238102 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 5891603925117624790}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5953923262744163645
@@ -2847,6 +3181,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -2904,11 +3242,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &5953923262744031165 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 5953923262744163645}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6022735213044011084
@@ -2921,6 +3264,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -2978,11 +3325,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6022735213044402892 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6022735213044011084}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6065431402610343967
@@ -2995,6 +3347,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3052,11 +3408,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6065431402609957535 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6065431402610343967}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6162765631274237409
@@ -3069,6 +3430,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3126,11 +3491,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6162765631273838433 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6162765631274237409}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6190316819918735888
@@ -3143,6 +3513,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3200,11 +3574,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6190316819919130768 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6190316819918735888}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6631074062807245748
@@ -3217,6 +3596,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -3274,11 +3657,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &6631074062806858036 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 6631074062807245748}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6788967229853358931
@@ -3291,6 +3679,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3348,11 +3740,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6788967229853221331 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6788967229853358931}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6823764814270559671
@@ -3365,6 +3762,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3422,11 +3823,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6823764814270164791 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6823764814270559671}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6894845555330665442
@@ -3439,6 +3845,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3496,11 +3906,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &6894845555330797922 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 6894845555330665442}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7105622942095468076
@@ -3513,6 +3928,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3570,11 +3989,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7105622942095080620 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7105622942095468076}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7107845241232775138
@@ -3587,6 +4011,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -3644,11 +4072,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &7107845241233165666 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 7107845241232775138}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7166942769432988014
@@ -3661,6 +4094,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3718,11 +4155,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7166942769433121774 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7166942769432988014}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7167838948006149718
@@ -3735,6 +4177,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3792,11 +4238,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7167838948006012118 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7167838948006149718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7194035649136630868
@@ -3809,6 +4260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -3866,11 +4321,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &7194035649137018580 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 7194035649136630868}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7227461306059721358
@@ -3883,6 +4343,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -3940,11 +4404,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7227461306059853838 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7227461306059721358}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7536289768637295903
@@ -3957,6 +4426,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4014,11 +4487,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7536289768637691807 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7536289768637295903}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7588856606150882685
@@ -4031,6 +4509,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4088,11 +4570,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &7588856606150488061 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 7588856606150882685}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7729410143118710156
@@ -4105,6 +4592,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4162,11 +4653,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7729410143118577420 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7729410143118710156}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7760302870937003659
@@ -4179,6 +4675,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4236,11 +4736,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &7760302870936878091 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 7760302870937003659}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7808781492452601581
@@ -4253,6 +4758,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4310,11 +4819,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7808781492452996205 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7808781492452601581}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7947394972545483380
@@ -4327,6 +4841,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4384,11 +4902,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &7947394972545358068 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 7947394972545483380}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8223518466145256793
@@ -4401,6 +4924,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4458,11 +4985,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &8223518466145132505 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 8223518466145256793}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8326184977793798402
@@ -4475,6 +5007,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4532,11 +5068,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &8326184977793403778 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 8326184977793798402}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8478876765488707229
@@ -4549,6 +5090,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -4606,11 +5151,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &8478876765488573469 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 8478876765488707229}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970520119353405
@@ -4623,6 +5173,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4680,11 +5234,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &8501970520118966973 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970520119353405}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970520230877025
@@ -4697,6 +5256,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4754,11 +5317,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &8501970520230743521 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970520230877025}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970521085360170
@@ -4771,6 +5339,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4828,11 +5400,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &8501970521085485738 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970521085360170}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970521528402968
@@ -4842,59 +5419,82 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8501970521780314094}
     m_Modifications:
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.077
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+    - target: {fileID: -1504981713932161579, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
       propertyPath: m_Name
       value: Scifi_Room_Wall_Door_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
 --- !u!4 &3496946061645360898 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94, type: 3}
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f4c3109f8d25c4d4a826fa0469dfcb94,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970521528402968}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970521713126009
@@ -4907,6 +5507,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -4964,11 +5568,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &8501970521712996601 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970521713126009}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970521936017979
@@ -4981,6 +5590,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_Name
       value: Scifi_Wall_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
       propertyPath: m_RootOrder
@@ -5038,11 +5651,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 25457142623534554971bf209f8976d3, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25457142623534554971bf209f8976d3, type: 3}
 --- !u!4 &8501970521935618235 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 25457142623534554971bf209f8976d3,
+    type: 3}
   m_PrefabInstance: {fileID: 8501970521936017979}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8501970522117317097
@@ -5052,53 +5670,70 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3496946061645360898}
     m_Modifications:
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.00000006965076
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -4216859302048453862, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
+    - target: {fileID: -927199367670048503, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
       propertyPath: m_Name
       value: Scifi_Door_Single_05
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9676355e721cc4c12911f4cb66872093,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9676355e721cc4c12911f4cb66872093, type: 3}
@@ -5112,6 +5747,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -5169,11 +5808,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &8545831812544492932 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 8545831812544622340}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9165692684666337873
@@ -5186,6 +5830,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_Name
       value: Scifi_Column_04 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
       propertyPath: m_RootOrder
@@ -5243,10 +5891,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
 --- !u!4 &9165692684665938129 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d6d4447ca9aba417baa61c0b7bbee7de,
+    type: 3}
   m_PrefabInstance: {fileID: 9165692684666337873}
   m_PrefabAsset: {fileID: 0}
